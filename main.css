@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Roboto;
+  src: url (Roboto-Black/ttf);
+}
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Tai Heritage Pro", 'Times New Roman', Times, serif;
+   
+}
+/*header*/
+.zone30 {
+    background-color: rgb(249, 252, 246);
+   width: 30%;
+}
+.zone70 {
+    width: 70%;
+    background-color: rgb(252, 249, 252);
+}
+.container-start {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-contact {
+    background-color: rgb(243, 241, 235);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+header  {
+    background-color: rgb(243, 126, 10);
+    font-size: 13px;
+    
+}
+/*Nom+Prenom*/
+h1 {
+    color: rgb(233, 127, 127);
+    text-align: center;
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+
+}
+/*Job*/
+h2 {
+    color:rgb(0, 6, 0);
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 10px 10px rgb(239, 231, 6);
+  }  
+
+
+
+ .title {
+     background-color: rgb(6, 6, 6);
+     color: aliceblue;
+     text-align: center;
+ }
+
+.Profil img{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50%;
+    
+}
+
+.container-end {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(249, 249, 245);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.formation {
+ background-color: antiquewhite;
+}
+.JOB {
+    text-align: center
+ } 
+
+/*Body*/
+body {
+   background-color: rgb(251, 251, 251);
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: .9rem;
+   line-height: 1.5;
+   font-weight: 300;
+   line-height: 1.5;
+}
+a{
+  text-decoration: none;
+}
+.section{
+  margin-bottom: 1.5rem;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+div
+{
+    border-radius: 5px;
+    }
+
+.loisirs .container-icones {
+    
+    background-color: rgb(255, 255, 255);   
+    text-align: center;
+}
+com {
+    text-align: justify;
+}
+.commentaire {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+   
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
